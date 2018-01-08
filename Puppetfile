@@ -16,14 +16,14 @@ mod "puppetlabs/java",        '1.6.0'
 #  :git    => 'https://github.com/puppetlabs/puppetlabs-apache',
 #  :branch => 'docs_experiment'
 mod 'ssh',
-  :git => 'https://github.com/chaitanya811/puppet-productioncode.git',
+  :git => 'https://github.com/chaitanya811/puppet-ssh.git',
   :ref => 'master'
 mod 'ntp'
-  :git => 'https://github.com/chaitanya811/puppet-productioncode.git',
+  :git => 'https://github.com/chaitanya811/ccheruku-ntp.git',
   :ref => 'master'
 mod 'role' 
-  :git => 'https://github.com/chaitanya811/puppet-productioncode.git',
+  :git => 'https://github.com/chaitanya811/puppet-role.git',
   :ref => 'master'
 mod 'profile'
-  :git => 'https://github.com/chaitanya811/puppet-productioncode.git',
+  :git => 'https://github.com/chaitanya811/puppet-profile.git',
   :ref => 'master'

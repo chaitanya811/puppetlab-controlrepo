@@ -1,0 +1,13 @@
+---
+profile::apache::apache_vhost_servers: {
+ 'chandu8115.mylabserver.com' : {
+   port: 80,
+   docroot: '/var/www/ccheruku'
+},
+ 'chandu8115b.mylabserver.com' : {
+  port: 80,
+  docroot: '/var/www/ccherukuri'
+}
+}
+
+

@@ -24,9 +24,9 @@ File { backup => false }
 # will be included in every node's catalog, *in addition* to any classes
 # specified in the console for that node.
 $test_top_scope = "top scope"
-node 'chandu8115.mylabserver.com' {
- notify { 'test-masessage from site.pp': }
-}
+#node 'chandu8115.mylabserver.com' {
+ #notify { 'test-masessage from site.pp': }
+#}
 
 node default {
   hiera_include('classes')

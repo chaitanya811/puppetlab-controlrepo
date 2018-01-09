@@ -36,3 +36,7 @@ mod 'role',
 mod 'profile',
   :git => 'https://github.com/chaitanya811/puppet-profile.git',
   :ref => 'master'
+mod 'nginx',
+  :git => 'https://github.com/chaitanya811/puppet-nigix.git'
+  :ref => 'master'
+

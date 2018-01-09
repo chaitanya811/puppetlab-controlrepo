@@ -32,6 +32,7 @@ notify { 'this is default node':}
 notify { "test_top_scope":
   message => "this is a top scope variable:${test_top_scope}",
 }
+}
 node chandu8114.mylabserver {
 notify { "this is node decleraltion": }
 }
@@ -39,4 +40,4 @@ notify { "this is node decleraltion": }
   # This is where you can declare classes for all nodes.
   # Example:
   #   class { 'my_class': }
-}
+

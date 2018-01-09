@@ -29,6 +29,7 @@ node 'chandu8115.mylabserver.com' {
 }
 
 node default {
+  hiera_include('classes')
   $test_top_scope = "this node scope"
   $node_scope_var = "node scope"
 
